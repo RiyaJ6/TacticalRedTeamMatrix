@@ -1,0 +1,12 @@
+ {
+  "threat_model": "Indirect Prompt Injection via Sensor Telemetry",
+  "target_systems": ["Palantir AIP", "Anduril Lattice", "JADC2 C2 Nodes"],
+  "adversarial_signatures": [
+    "IGNORE ALL PREVIOUS INSTRUCTIONS",
+    "SYSTEM OVERRIDE",
+    "NEW DIRECTIVE",
+    "PRINT CLASSIFIED",
+    "BYPASS SECURITY PROTOCOL"
+  ],
+  "anomaly_threshold": 0.85
+}
